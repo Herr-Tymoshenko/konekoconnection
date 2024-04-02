@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="blue.koneko.konekoconnection" />
+                  <option name="mobileSdkAppId" value="1:283857442252:android:36fd56fcc0b5489569f969" />
+                  <option name="projectId" value="koneko-connection" />
+                  <option name="projectNumber" value="283857442252" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

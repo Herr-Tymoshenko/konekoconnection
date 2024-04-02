@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -67,5 +68,21 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation(libs.androidx.core.splashscreen)
+
+    implementation(platform(libs.firebase.bom))
+    //noinspection UseTomlInstead
+    implementation("com.google.firebase:firebase-analytics")
+
+    //noinspection UseTomlInstead
+    implementation("com.google.android.gms:play-services-fitness")
+    //noinspection UseTomlInstead
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
+
+    //noinspection UseTomlInstead
+    implementation("com.google.firebase:firebase-auth")
+
+    implementation(libs.androidx.navigation.compose)
+
+    implementation(libs.coil.compose)
 }

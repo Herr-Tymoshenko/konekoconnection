@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "283857442252",
+    "project_id": "koneko-connection",
+    "storage_bucket": "koneko-connection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283857442252:android:36fd56fcc0b5489569f969",
+        "android_client_info": {
+          "package_name": "blue.koneko.konekoconnection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283857442252-ms403oh4ij12etrup3onksvpatm9a0d8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blue.koneko.konekoconnection",
+            "certificate_hash": "ad392c3c8a9ea2f0748df6824361d3a9f8ce09b0"
+          }
+        },
+        {
+          "client_id": "283857442252-uflplke3u2vo466jhp34duv772rdo1s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSC6hqUQaBH4olPQxTOuxhGMH_94kZ8vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283857442252-uflplke3u2vo466jhp34duv772rdo1s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
