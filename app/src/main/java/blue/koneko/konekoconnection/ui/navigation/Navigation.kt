@@ -17,10 +17,10 @@ fun Navigation(
     }
 
     NavHost(navController = navController, startDestination = LOGIN_SCREEN) {
-        loginComposable(navigateToLoginScreen = {
+        loginComposable(navigateToHomeScreen = {
 
         })
-        homeComposable(navigateToHomeScreen = {
+        homeComposable(navigateToLoginScreen = {
 
         })
     }

@@ -5,7 +5,7 @@ import androidx.navigation.compose.composable
 import blue.koneko.konekoconnection.utils.Constants.HOME_SCREEN
 
 fun NavGraphBuilder.homeComposable(
-    navigateToHomeScreen: () -> Unit
+    navigateToLoginScreen: () -> Unit
 ) {
     composable(
         route = HOME_SCREEN
