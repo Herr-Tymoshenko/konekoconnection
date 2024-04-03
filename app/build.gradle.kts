@@ -41,7 +41,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.11"
     }
     packaging {
         resources {
@@ -75,7 +75,7 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
 
     //noinspection UseTomlInstead
-    implementation("com.google.android.gms:play-services-fitness")
+    implementation("com.google.android.gms:play-services-fitness:21.1.0")
     //noinspection UseTomlInstead
     implementation("com.google.android.gms:play-services-auth:21.0.0")
 
